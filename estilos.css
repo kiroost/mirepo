@@ -1,0 +1,76 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fondo gris muy clarito */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Título principal con color */
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    color: #e63946; /* Rojo suave */
+}
+
+/* Subtítulo con color */
+h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 40px;
+    color: #457b9d; /* Azul acero */
+}
+
+/* Estilo de los enlaces (Tarjetas con colores pastel) */
+a {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    text-decoration: none;
+    padding: 18px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-align: center;
+    color: #333;
+    border: 1px solid transparent;
+    transition: opacity 0.2s ease;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Diferentes colores para cada botón (usando clases alternadas que pondrás en el HTML) */
+a:nth-of-type(1) { background-color: #ffd166; } /* Amarillo */
+a:nth-of-type(2) { background-color: #06d6a0; } /* Verde menta */
+a:nth-of-type(3) { background-color: #118ab2; color: white; } /* Azul */
+a:nth-of-type(4) { background-color: #ef476f; color: white; } /* Rosa */
+
+/* Efecto al pasar el mouse (Solo cambia un poco la intensidad) */
+a:hover {
+    opacity: 0.8;
+}
+
+/* Párrafo de bienvenida */
+p {
+    margin-top: 30px;
+    font-size: 1.1rem;
+    text-align: center;
+    color: #555;
+    background-color: #e9ecef;
+    padding: 12px 20px;
+    border-radius: 20px;
+}
